@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<!-- Адаптирование страницы для мобильных устройств -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- Запрет распознования номера телефона -->
+		<meta name="format-detection" content="telephone=no">
+		<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+		<!-- Заголовок страницы -->
+		<title>Заголовок страницы</title>
+
+		<!-- Данное значение часто используют(использовали) поисковые системы -->
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+
+		<!-- Традиционная иконка сайта, размер 16x16, прозрачность поддерживается. Рекомендуемый формат: .ico или .png -->
+		<link rel="shortcut icon" href="favicon.ico">
+
+		<!-- Изменение цвета панели моб. браузера -->
+		<meta name="msapplication-TileColor" content="#E6FF0D">
+		<meta name="theme-color" content="#E6FF0D">
+
+		<!-- Подключение шрифтов с гугла -->
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+		<!-- Подключение файлов стилей -->
+		<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+		<link rel="stylesheet" href="css/swiper.css">
+		<link rel="stylesheet" href="css/fancybox.css">
+		<link rel="stylesheet" href="css/wheelSlider.css">
+		<link rel="stylesheet" href="css/styles.css">
+
+		<link rel="stylesheet" href="css/response_1899.css" media="print, (max-width: 1899px)">
+		<link rel="stylesheet" href="css/response_1439.css" media="print, (max-width: 1439px)">
+		<link rel="stylesheet" href="css/response_1279.css" media="print, (max-width: 1279px)">
+		<link rel="stylesheet" href="css/response_1023.css" media="print, (max-width: 1023px)">
+		<link rel="stylesheet" href="css/response_767.css" media="print, (max-width: 767px)">
+		<link rel="stylesheet" href="css/response_479.css" media="(max-width: 479px)">
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="main">
+				<header>
+					<div class="cont row">
+						<button class="mob_menu_btn">
+							<span></span>
+						</button>
+
+						<a href="/" class="logo">
+							<img src="images/logo.svg" alt="">
+						</a>
+
+						<nav class="menu row">
+							<div class="item">
+								<a href="/">о бренде</a>
+							</div>
+
+							<div class="item">
+								<a href="/" class="sub_link">Каталог</a>
+
+								<div class="sub_menu">
+									<div class="cont row">
+										<div class="data">
+											<div class="row">
+												<div class="col">
+													<div class="title">верх</div>
+
+													<div class="items">
+														<div><a href="/">Топы</a></div>
+														<div><a href="/">Футболики и майки</a></div>
+														<div><a href="/">Рашгарды</a></div>
+													</div>
+												</div>
+
+												<div class="col big">
+													<div class="title">низ</div>
+
+													<div class="items">
+														<div>
+															<div><a href="/">Спортивные штаны</a></div>
+															<div><a href="/">Шорты</a></div>
+															<div><a href="/">Велосипедки</a></div>
+															<div><a href="/">Юбки</a></div>
+															<div><a href="/">Леггинсы</a></div>
+														</div>
+
+														<div>
+															<div><a href="/">Комбинезоны</a></div>
+															<div><a href="/">Платья</a></div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+
+										<div class="gallery">
+											<div class="row">
+												<a href="/" class="item">
+													<div class="thumb">
+														<img data-src="images/tmp/sub_menu_gallery_thumb.jpg" alt="" class="lozad">
+													</div>
+												</a>
+
+												<a href="/" class="item">
+													<div class="thumb">
+														<img data-src="images/tmp/sub_menu_gallery_thumb2.jpg" alt="" class="lozad">
+													</div>
+												</a>
+
+												<a href="/" class="item">
+													<div class="thumb">
+														<img data-src="images/tmp/sub_menu_gallery_thumb3.jpg" alt="" class="lozad">
+													</div>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="item">
+								<a href="/">коллекции</a>
+							</div>
+
+							<div class="item">
+								<a href="/">условия доставки</a>
+							</div>
+
+							<div class="item">
+								<a href="/">возврат / обмен</a>
+							</div>
+
+							<div class="item">
+								<a href="/">контакты</a>
+							</div>
+						</nav>
+
+						<div class="phone">
+							<a href="tel:88006754545">8 800 675 45 45</a>
+						</div>
+
+						<div class="links">
+							<div class="search modal_cont">
+								<button class="btn mini_modal_btn" data-modal-id="#search_modal">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+								</button>
+
+								<div class="mini_modal" id="search_modal">
+									<div class="data">
+										<div class="cont">
+											<form action="">
+												<input type="text" name="" value="" class="input" placeholder="Поиск в каталоге">
+
+												<button type="submit" class="submit_btn">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+												</button>
+											</form>
+										</div>
+
+										<div class="result">
+											<div class="cont">
+												<!-- <div class="empty">К сожалению, ничего не найдено</div> -->
+
+												<div class="scroll">
+													<div class="products">
+														<div class="row">
+															<div class="product">
+																<a href="/" class="thumb">
+																	<img data-src="images/tmp/product_thumb1.jpg" alt="" class="lozad">
+																	<img data-src="images/tmp/product_thumb1_2.jpg" alt="" class="lozad">
+																</a>
+
+																<div class="name">
+																	<a href="/">Леггинсы</a>
+																</div>
+
+																<div class="price">2 800 руб.</div>
+															</div>
+
+															<div class="product">
+																<a href="/" class="thumb">
+																	<img data-src="images/tmp/product_thumb1.jpg" alt="" class="lozad">
+																	<img data-src="images/tmp/product_thumb1_2.jpg" alt="" class="lozad">
+																</a>
+
+																<div class="name">
+																	<a href="/">Леггинсы</a>
+																</div>
+
+																<div class="price">2 800 руб.</div>
+															</div>
+
+															<div class="product">
+																<a href="/" class="thumb">
+																	<img data-src="images/tmp/product_thumb1.jpg" alt="" class="lozad">
+																	<img data-src="images/tmp/product_thumb1_2.jpg" alt="" class="lozad">
+																</a>
+
+																<div class="name">
+																	<a href="/">Леггинсы</a>
+																</div>
+
+																<div class="price">2 800 руб.</div>
+															</div>
+
+															<div class="product">
+																<a href="/" class="thumb">
+																	<img data-src="images/tmp/product_thumb1.jpg" alt="" class="lozad">
+																	<img data-src="images/tmp/product_thumb1_2.jpg" alt="" class="lozad">
+																</a>
+
+																<div class="name">
+																	<a href="/">Леггинсы</a>
+																</div>
+
+																<div class="price">2 800 руб.</div>
+															</div>
+
+															<div class="product">
+																<a href="/" class="thumb">
+																	<img data-src="images/tmp/product_thumb1.jpg" alt="" class="lozad">
+																	<img data-src="images/tmp/product_thumb1_2.jpg" alt="" class="lozad">
+																</a>
+
+																<div class="name">
+																	<a href="/">Леггинсы</a>
+																</div>
+
+																<div class="price">2 800 руб.</div>
+															</div>
+
+															<div class="product">
+																<a href="/" class="thumb">
+																	<img data-src="images/tmp/product_thumb1.jpg" alt="" class="lozad">
+																	<img data-src="images/tmp/product_thumb1_2.jpg" alt="" class="lozad">
+																</a>
+
+																<div class="name">
+																	<a href="/">Леггинсы</a>
+																</div>
+
+																<div class="price">2 800 руб.</div>
+															</div>
+
+															<div class="product">
+																<a href="/" class="thumb">
+																	<img data-src="images/tmp/product_thumb1.jpg" alt="" class="lozad">
+																	<img data-src="images/tmp/product_thumb1_2.jpg" alt="" class="lozad">
+																</a>
+
+																<div class="name">
+																	<a href="/">Леггинсы</a>
+																</div>
+
+																<div class="price">2 800 руб.</div>
+															</div>
+
+															<div class="product">
+																<a href="/" class="thumb">
+																	<img data-src="images/tmp/product_thumb1.jpg" alt="" class="lozad">
+																	<img data-src="images/tmp/product_thumb1_2.jpg" alt="" class="lozad">
+																</a>
+
+																<div class="name">
+																	<a href="/">Леггинсы</a>
+																</div>
+
+																<div class="price">2 800 руб.</div>
+															</div>
+
+															<div class="product">
+																<a href="/" class="thumb">
+																	<img data-src="images/tmp/product_thumb1.jpg" alt="" class="lozad">
+																	<img data-src="images/tmp/product_thumb1_2.jpg" alt="" class="lozad">
+																</a>
+
+																<div class="name">
+																	<a href="/">Леггинсы</a>
+																</div>
+
+																<div class="price">2 800 руб.</div>
+															</div>
+
+															<div class="product">
+																<a href="/" class="thumb">
+																	<img data-src="images/tmp/product_thumb1.jpg" alt="" class="lozad">
+																	<img data-src="images/tmp/product_thumb1_2.jpg" alt="" class="lozad">
+																</a>
+
+																<div class="name">
+																	<a href="/">Леггинсы</a>
+																</div>
+
+																<div class="price">2 800 руб.</div>
+															</div>
+
+															<div class="product">
+																<a href="/" class="thumb">
+																	<img data-src="images/tmp/product_thumb1.jpg" alt="" class="lozad">
+																	<img data-src="images/tmp/product_thumb1_2.jpg" alt="" class="lozad">
+																</a>
+
+																<div class="name">
+																	<a href="/">Леггинсы</a>
+																</div>
+
+																<div class="price">2 800 руб.</div>
+															</div>
+
+															<div class="product">
+																<a href="/" class="thumb">
+																	<img data-src="images/tmp/product_thumb1.jpg" alt="" class="lozad">
+																	<img data-src="images/tmp/product_thumb1_2.jpg" alt="" class="lozad">
+																</a>
+
+																<div class="name">
+																	<a href="/">Леггинсы</a>
+																</div>
+
+																<div class="price">2 800 руб.</div>
+															</div>
+
+															<div class="product">
+																<a href="/" class="thumb">
+																	<img data-src="images/tmp/product_thumb1.jpg" alt="" class="lozad">
+																	<img data-src="images/tmp/product_thumb1_2.jpg" alt="" class="lozad">
+																</a>
+
+																<div class="name">
+																	<a href="/">Леггинсы</a>
+																</div>
+
+																<div class="price">2 800 руб.</div>
+															</div>
+
+															<div class="product">
+																<a href="/" class="thumb">
+																	<img data-src="images/tmp/product_thumb1.jpg" alt="" class="lozad">
+																	<img data-src="images/tmp/product_thumb1_2.jpg" alt="" class="lozad">
+																</a>
+
+																<div class="name">
+																	<a href="/">Леггинсы</a>
+																</div>
+
+																<div class="price">2 800 руб.</div>
+															</div>
+
+															<div class="product">
+																<a href="/" class="thumb">
+																	<img data-src="images/tmp/product_thumb1.jpg" alt="" class="lozad">
+																	<img data-src="images/tmp/product_thumb1_2.jpg" alt="" class="lozad">
+																</a>
+
+																<div class="name">
+																	<a href="/">Леггинсы</a>
+																</div>
+
+																<div class="price">2 800 руб.</div>
+															</div>
+
+															<div class="product">
+																<a href="/" class="thumb">
+																	<img data-src="images/tmp/product_thumb1.jpg" alt="" class="lozad">
+																	<img data-src="images/tmp/product_thumb1_2.jpg" alt="" class="lozad">
+																</a>
+
+																<div class="name">
+																	<a href="/">Леггинсы</a>
+																</div>
+
+																<div class="price">2 800 руб.</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+
+										<div class="overlay"></div>
+									</div>
+								</div>
+							</div>
+
+							<div class="favorite">
+								<a href="/" class="btn">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+								</a>
+							</div>
+
+							<div class="cart">
+								<a href="/" class="btn">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart"></use></svg>
+								</a>
+							</div>
+						</div>
+					</div>
+				</header>
+
+
+				<section class="mob_menu">
+					<div class="cont">
+						<div class="head">
+							<div class="title">Меню</div>
+
+							<button class="close"></button>
+						</div>
+
+						<div class="data">
+							<div class="menu">
+								<div><a href="/">о бренде</a></div>
+								<div><a href="#" class="sub_link" data-content=".catalog_data">Каталог</a></div>
+								<div><a href="/">коллекции</a></div>
+								<div><a href="/">условия доставки</a></div>
+								<div><a href="/">возврат / обмен</a></div>
+								<div><a href="/">контакты</a></div>
+							</div>
+
+							<div class="logo">
+								<img data-src="images/circle_logo.svg" alt="" class="lozad">
+							</div>
+						</div>
+
+						<div class="menu_data catalog_data">
+							<div class="back">
+								<button class="btn">Каталог</button>
+							</div>
+
+							<div class="item">
+								<div class="title">верх</div>
+
+								<div class="items">
+									<div><a href="/">Топы</a></div>
+									<div><a href="/">Футболики и майки</a></div>
+									<div><a href="/">Рашгарды</a></div>
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="title">низ</div>
+
+								<div class="items">
+									<div><a href="/">Спортивные штаны</a></div>
+									<div><a href="/">Шорты</a></div>
+									<div><a href="/">Велосипедки</a></div>
+									<div><a href="/">Юбки</a></div>
+									<div><a href="/">Леггинсы</a></div>
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="items">
+									<div><a href="/">Комбинезоны</a></div>
+									<div><a href="/">Платья</a></div>
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="items">
+									<div><a href="/"><b>Коллекция 2021</b></a></div>
+									<div><a href="/"><b>Летняя коллекция</b></a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="error_info block">
+					<div class="cont">
+						<div class="code">404</div>
+
+						<div class="title">Страница не найдена</div>
+
+						<div class="desc">
+							<div>Это могло произойти по следующим причинам:</div>
+
+							<div>
+								- был изменен URL<br>
+								- страница удалена<br>
+								- ошибка в написании ссылки
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="categories block">
+					<div class="cont">
+						<div class="block_title">Возможно, вы искали что-то из:</div>
+
+						<div class="swiper-container">
+							<div class="swiper-wrapper">
+								<div class="slide swiper-slide">
+									<a href="/" class="category">
+										<div class="thumb">
+											<img data-src="images/tmp/category_thumb1.jpg" alt="" class="lozad">
+										</div>
+										<div class="name">спортивные бра</div>
+									</a>
+								</div>
+
+								<div class="slide swiper-slide">
+									<a href="/" class="category">
+										<div class="thumb">
+											<img data-src="images/tmp/category_thumb2.jpg" alt="" class="lozad">
+										</div>
+										<div class="name">худи</div>
+									</a>
+								</div>
+
+								<div class="slide swiper-slide">
+									<a href="/" class="category">
+										<div class="thumb">
+											<img data-src="images/tmp/category_thumb3.jpg" alt="" class="lozad">
+										</div>
+										<div class="name">велосипедки</div>
+									</a>
+								</div>
+
+								<div class="slide swiper-slide">
+									<a href="/" class="category">
+										<div class="thumb">
+											<img data-src="images/tmp/category_thumb4.jpg" alt="" class="lozad">
+										</div>
+										<div class="name">шорты</div>
+									</a>
+								</div>
+
+								<div class="slide swiper-slide">
+									<a href="/" class="category">
+										<div class="thumb">
+											<img data-src="images/tmp/category_thumb5.jpg" alt="" class="lozad">
+										</div>
+										<div class="name">спортивные бра</div>
+									</a>
+								</div>
+
+								<div class="slide swiper-slide">
+									<a href="/" class="category">
+										<div class="thumb">
+											<img data-src="images/tmp/category_thumb2.jpg" alt="" class="lozad">
+										</div>
+										<div class="name">худи</div>
+									</a>
+								</div>
+
+								<div class="slide swiper-slide">
+									<a href="/" class="category">
+										<div class="thumb">
+											<img data-src="images/tmp/category_thumb1.jpg" alt="" class="lozad">
+										</div>
+										<div class="name">спортивные бра</div>
+									</a>
+								</div>
+
+								<div class="slide swiper-slide">
+									<a href="/" class="category">
+										<div class="thumb">
+											<img data-src="images/tmp/category_thumb2.jpg" alt="" class="lozad">
+										</div>
+										<div class="name">худи</div>
+									</a>
+								</div>
+
+								<div class="slide swiper-slide">
+									<a href="/" class="category">
+										<div class="thumb">
+											<img data-src="images/tmp/category_thumb3.jpg" alt="" class="lozad">
+										</div>
+										<div class="name">велосипедки</div>
+									</a>
+								</div>
+
+								<div class="slide swiper-slide">
+									<a href="/" class="category">
+										<div class="thumb">
+											<img data-src="images/tmp/category_thumb4.jpg" alt="" class="lozad">
+										</div>
+										<div class="name">шорты</div>
+									</a>
+								</div>
+
+								<div class="slide swiper-slide">
+									<a href="/" class="category">
+										<div class="thumb">
+											<img data-src="images/tmp/category_thumb5.jpg" alt="" class="lozad">
+										</div>
+										<div class="name">спортивные бра</div>
+									</a>
+								</div>
+
+								<div class="slide swiper-slide">
+									<a href="/" class="category">
+										<div class="thumb">
+											<img data-src="images/tmp/category_thumb2.jpg" alt="" class="lozad">
+										</div>
+										<div class="name">худи</div>
+									</a>
+								</div>
+							</div>
+
+							<div class="swiper-button-prev"></div>
+							<div class="swiper-button-next"></div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
+
+
+		<div class="supports_error">
+			Ваш браузер устарел рекомендуем обновить его до последней версии<br> или использовать другой более современный.
+		</div>
+
+
+		<!-- Подключение javascript файлов -->
+		<script src="js/jquery-3.5.0.min.js"></script>
+		<script src="js/lozad.min.js"></script>
+		<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+		<script src="js/inputmask.min.js"></script>
+		<script src="js/nice-select.js"></script>
+		<script src="js/fancybox.min.js"></script>
+		<script src="js/wheelSlider.js"></script>
+		<script src="js/sticky-kit.min.js"></script>
+		<script src="js/functions.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>

@@ -1,0 +1,1050 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<!-- Адаптирование страницы для мобильных устройств -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- Запрет распознования номера телефона -->
+		<meta name="format-detection" content="telephone=no">
+		<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+		<!-- Заголовок страницы -->
+		<title>Заголовок страницы</title>
+
+		<!-- Данное значение часто используют(использовали) поисковые системы -->
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+
+		<!-- Традиционная иконка сайта, размер 16x16, прозрачность поддерживается. Рекомендуемый формат: .ico или .png -->
+		<link rel="shortcut icon" href="favicon.ico">
+
+		<!-- Изменение цвета панели моб. браузера -->
+		<meta name="msapplication-TileColor" content="#E6FF0D">
+		<meta name="theme-color" content="#E6FF0D">
+
+		<!-- Подключение шрифтов с гугла -->
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+		<!-- Подключение файлов стилей -->
+		<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+		<link rel="stylesheet" href="css/swiper.css">
+		<link rel="stylesheet" href="css/fancybox.css">
+		<link rel="stylesheet" href="css/wheelSlider.css">
+		<link rel="stylesheet" href="css/styles.css">
+
+		<link rel="stylesheet" href="css/response_1899.css" media="print, (max-width: 1899px)">
+		<link rel="stylesheet" href="css/response_1439.css" media="print, (max-width: 1439px)">
+		<link rel="stylesheet" href="css/response_1279.css" media="print, (max-width: 1279px)">
+		<link rel="stylesheet" href="css/response_1023.css" media="print, (max-width: 1023px)">
+		<link rel="stylesheet" href="css/response_767.css" media="print, (max-width: 767px)">
+		<link rel="stylesheet" href="css/response_479.css" media="(max-width: 479px)">
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="main">
+				<header>
+					<div class="cont row">
+						<button class="mob_menu_btn">
+							<span></span>
+						</button>
+
+						<a href="/" class="logo">
+							<img src="images/logo.svg" alt="">
+						</a>
+
+						<nav class="menu row">
+							<div class="item">
+								<a class="active">о бренде</a>
+							</div>
+
+							<div class="item">
+								<a href="/" class="sub_link">Каталог</a>
+
+								<div class="sub_menu">
+									<div class="cont row">
+										<div class="data">
+											<div class="row">
+												<div class="col">
+													<div class="title">верх</div>
+
+													<div class="items">
+														<div><a href="/">Топы</a></div>
+														<div><a href="/">Футболики и майки</a></div>
+														<div><a href="/">Рашгарды</a></div>
+													</div>
+												</div>
+
+												<div class="col big">
+													<div class="title">низ</div>
+
+													<div class="items">
+														<div>
+															<div><a href="/">Спортивные штаны</a></div>
+															<div><a href="/">Шорты</a></div>
+															<div><a href="/">Велосипедки</a></div>
+															<div><a href="/">Юбки</a></div>
+															<div><a href="/">Леггинсы</a></div>
+														</div>
+
+														<div>
+															<div><a href="/">Комбинезоны</a></div>
+															<div><a href="/">Платья</a></div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+
+										<div class="gallery">
+											<div class="row">
+												<a href="/" class="item">
+													<div class="thumb">
+														<img data-src="images/tmp/sub_menu_gallery_thumb.jpg" alt="" class="lozad">
+													</div>
+												</a>
+
+												<a href="/" class="item">
+													<div class="thumb">
+														<img data-src="images/tmp/sub_menu_gallery_thumb2.jpg" alt="" class="lozad">
+													</div>
+												</a>
+
+												<a href="/" class="item">
+													<div class="thumb">
+														<img data-src="images/tmp/sub_menu_gallery_thumb3.jpg" alt="" class="lozad">
+													</div>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="item">
+								<a href="/">коллекции</a>
+							</div>
+
+							<div class="item">
+								<a href="/">условия доставки</a>
+							</div>
+
+							<div class="item">
+								<a href="/">возврат / обмен</a>
+							</div>
+
+							<div class="item">
+								<a href="/">контакты</a>
+							</div>
+						</nav>
+
+						<div class="phone">
+							<a href="tel:88006754545">8 800 675 45 45</a>
+						</div>
+
+						<div class="links">
+							<div class="search modal_cont">
+								<button class="btn mini_modal_btn" data-modal-id="#search_modal">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+								</button>
+
+								<div class="mini_modal" id="search_modal">
+									<div class="data">
+										<div class="cont">
+											<form action="">
+												<input type="text" name="" value="" class="input" placeholder="Поиск в каталоге">
+
+												<button type="submit" class="submit_btn">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+												</button>
+											</form>
+										</div>
+
+										<div class="result">
+											<div class="cont">
+												<!-- <div class="empty">К сожалению, ничего не найдено</div> -->
+
+												<div class="scroll">
+													<div class="products">
+														<div class="row">
+															<div class="product">
+																<a href="/" class="thumb">
+																	<img data-src="images/tmp/product_thumb1.jpg" alt="" class="lozad">
+																	<img data-src="images/tmp/product_thumb1_2.jpg" alt="" class="lozad">
+																</a>
+
+																<div class="name">
+																	<a href="/">Леггинсы</a>
+																</div>
+
+																<div class="price">2 800 руб.</div>
+															</div>
+
+															<div class="product">
+																<a href="/" class="thumb">
+																	<img data-src="images/tmp/product_thumb1.jpg" alt="" class="lozad">
+																	<img data-src="images/tmp/product_thumb1_2.jpg" alt="" class="lozad">
+																</a>
+
+																<div class="name">
+																	<a href="/">Леггинсы</a>
+																</div>
+
+																<div class="price">2 800 руб.</div>
+															</div>
+
+															<div class="product">
+																<a href="/" class="thumb">
+																	<img data-src="images/tmp/product_thumb1.jpg" alt="" class="lozad">
+																	<img data-src="images/tmp/product_thumb1_2.jpg" alt="" class="lozad">
+																</a>
+
+																<div class="name">
+																	<a href="/">Леггинсы</a>
+																</div>
+
+																<div class="price">2 800 руб.</div>
+															</div>
+
+															<div class="product">
+																<a href="/" class="thumb">
+																	<img data-src="images/tmp/product_thumb1.jpg" alt="" class="lozad">
+																	<img data-src="images/tmp/product_thumb1_2.jpg" alt="" class="lozad">
+																</a>
+
+																<div class="name">
+																	<a href="/">Леггинсы</a>
+																</div>
+
+																<div class="price">2 800 руб.</div>
+															</div>
+
+															<div class="product">
+																<a href="/" class="thumb">
+																	<img data-src="images/tmp/product_thumb1.jpg" alt="" class="lozad">
+																	<img data-src="images/tmp/product_thumb1_2.jpg" alt="" class="lozad">
+																</a>
+
+																<div class="name">
+																	<a href="/">Леггинсы</a>
+																</div>
+
+																<div class="price">2 800 руб.</div>
+															</div>
+
+															<div class="product">
+																<a href="/" class="thumb">
+																	<img data-src="images/tmp/product_thumb1.jpg" alt="" class="lozad">
+																	<img data-src="images/tmp/product_thumb1_2.jpg" alt="" class="lozad">
+																</a>
+
+																<div class="name">
+																	<a href="/">Леггинсы</a>
+																</div>
+
+																<div class="price">2 800 руб.</div>
+															</div>
+
+															<div class="product">
+																<a href="/" class="thumb">
+																	<img data-src="images/tmp/product_thumb1.jpg" alt="" class="lozad">
+																	<img data-src="images/tmp/product_thumb1_2.jpg" alt="" class="lozad">
+																</a>
+
+																<div class="name">
+																	<a href="/">Леггинсы</a>
+																</div>
+
+																<div class="price">2 800 руб.</div>
+															</div>
+
+															<div class="product">
+																<a href="/" class="thumb">
+																	<img data-src="images/tmp/product_thumb1.jpg" alt="" class="lozad">
+																	<img data-src="images/tmp/product_thumb1_2.jpg" alt="" class="lozad">
+																</a>
+
+																<div class="name">
+																	<a href="/">Леггинсы</a>
+																</div>
+
+																<div class="price">2 800 руб.</div>
+															</div>
+
+															<div class="product">
+																<a href="/" class="thumb">
+																	<img data-src="images/tmp/product_thumb1.jpg" alt="" class="lozad">
+																	<img data-src="images/tmp/product_thumb1_2.jpg" alt="" class="lozad">
+																</a>
+
+																<div class="name">
+																	<a href="/">Леггинсы</a>
+																</div>
+
+																<div class="price">2 800 руб.</div>
+															</div>
+
+															<div class="product">
+																<a href="/" class="thumb">
+																	<img data-src="images/tmp/product_thumb1.jpg" alt="" class="lozad">
+																	<img data-src="images/tmp/product_thumb1_2.jpg" alt="" class="lozad">
+																</a>
+
+																<div class="name">
+																	<a href="/">Леггинсы</a>
+																</div>
+
+																<div class="price">2 800 руб.</div>
+															</div>
+
+															<div class="product">
+																<a href="/" class="thumb">
+																	<img data-src="images/tmp/product_thumb1.jpg" alt="" class="lozad">
+																	<img data-src="images/tmp/product_thumb1_2.jpg" alt="" class="lozad">
+																</a>
+
+																<div class="name">
+																	<a href="/">Леггинсы</a>
+																</div>
+
+																<div class="price">2 800 руб.</div>
+															</div>
+
+															<div class="product">
+																<a href="/" class="thumb">
+																	<img data-src="images/tmp/product_thumb1.jpg" alt="" class="lozad">
+																	<img data-src="images/tmp/product_thumb1_2.jpg" alt="" class="lozad">
+																</a>
+
+																<div class="name">
+																	<a href="/">Леггинсы</a>
+																</div>
+
+																<div class="price">2 800 руб.</div>
+															</div>
+
+															<div class="product">
+																<a href="/" class="thumb">
+																	<img data-src="images/tmp/product_thumb1.jpg" alt="" class="lozad">
+																	<img data-src="images/tmp/product_thumb1_2.jpg" alt="" class="lozad">
+																</a>
+
+																<div class="name">
+																	<a href="/">Леггинсы</a>
+																</div>
+
+																<div class="price">2 800 руб.</div>
+															</div>
+
+															<div class="product">
+																<a href="/" class="thumb">
+																	<img data-src="images/tmp/product_thumb1.jpg" alt="" class="lozad">
+																	<img data-src="images/tmp/product_thumb1_2.jpg" alt="" class="lozad">
+																</a>
+
+																<div class="name">
+																	<a href="/">Леггинсы</a>
+																</div>
+
+																<div class="price">2 800 руб.</div>
+															</div>
+
+															<div class="product">
+																<a href="/" class="thumb">
+																	<img data-src="images/tmp/product_thumb1.jpg" alt="" class="lozad">
+																	<img data-src="images/tmp/product_thumb1_2.jpg" alt="" class="lozad">
+																</a>
+
+																<div class="name">
+																	<a href="/">Леггинсы</a>
+																</div>
+
+																<div class="price">2 800 руб.</div>
+															</div>
+
+															<div class="product">
+																<a href="/" class="thumb">
+																	<img data-src="images/tmp/product_thumb1.jpg" alt="" class="lozad">
+																	<img data-src="images/tmp/product_thumb1_2.jpg" alt="" class="lozad">
+																</a>
+
+																<div class="name">
+																	<a href="/">Леггинсы</a>
+																</div>
+
+																<div class="price">2 800 руб.</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+
+										<div class="overlay"></div>
+									</div>
+								</div>
+							</div>
+
+							<div class="favorite">
+								<a href="/" class="btn">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+								</a>
+							</div>
+
+							<div class="cart">
+								<a class="btn active">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart"></use></svg>
+								</a>
+							</div>
+						</div>
+					</div>
+				</header>
+
+
+				<section class="mob_menu">
+					<div class="cont">
+						<div class="head">
+							<div class="title">Меню</div>
+
+							<button class="close"></button>
+						</div>
+
+						<div class="data">
+							<div class="menu">
+								<div><a class="active">о бренде</a></div>
+								<div><a href="#" class="sub_link" data-content=".catalog_data">Каталог</a></div>
+								<div><a href="/">коллекции</a></div>
+								<div><a href="/">условия доставки</a></div>
+								<div><a href="/">возврат / обмен</a></div>
+								<div><a href="/">контакты</a></div>
+							</div>
+
+							<div class="logo">
+								<img data-src="images/circle_logo.svg" alt="" class="lozad">
+							</div>
+						</div>
+
+						<div class="menu_data catalog_data">
+							<div class="back">
+								<button class="btn">Каталог</button>
+							</div>
+
+							<div class="item">
+								<div class="title">верх</div>
+
+								<div class="items">
+									<div><a href="/">Топы</a></div>
+									<div><a href="/">Футболики и майки</a></div>
+									<div><a href="/">Рашгарды</a></div>
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="title">низ</div>
+
+								<div class="items">
+									<div><a href="/">Спортивные штаны</a></div>
+									<div><a href="/">Шорты</a></div>
+									<div><a href="/">Велосипедки</a></div>
+									<div><a href="/">Юбки</a></div>
+									<div><a href="/">Леггинсы</a></div>
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="items">
+									<div><a href="/">Комбинезоны</a></div>
+									<div><a href="/">Платья</a></div>
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="items">
+									<div><a href="/"><b>Коллекция 2021</b></a></div>
+									<div><a href="/"><b>Летняя коллекция</b></a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="page_head">
+					<div class="cont">
+						<div class="breadcrumbs">
+							<a href="/">Главная</a> <span class="sep">/</span>
+							<span class="current">Корзина</span>
+						</div>
+
+						<h1 class="page_title">Корзина</h1>
+					</div>
+				</section>
+
+
+				<section class="content_flex big_aside block">
+					<div class="cont row">
+						<section class="content">
+							<section class="cart_info">
+								<div class="list">
+									<div class="product">
+										<a href="/" class="thumb">
+											<img data-src="images/tmp/product_thumb1.jpg" alt="" class="lozad">
+										</a>
+
+										<div class="info">
+											<div class="name">
+												<a href="/">Леггинсы</a>
+											</div>
+
+											<div class="collection">Название коллекции</div>
+
+											<div class="articul">Артикул: <span>565545</span></div>
+
+											<div class="options">
+												<div class="item size">
+													<div class="label">Размер:</div>
+
+													<select name="">
+														<option value="1">XS</option>
+														<option value="2">XS</option>
+														<option value="3" selected>XS</option>
+													</select>
+												</div>
+
+												<div class="item color">
+													<div class="label">Цвет:</div>
+
+													<select name="">
+														<option value="1">черный</option>
+														<option value="2">черный</option>
+														<option value="3" selected>черный</option>
+													</select>
+												</div>
+											</div>
+
+											<div class="bottom">
+												<div class="amount">
+													<button type="button" class="minus">-</button>
+
+													<input type="text" value="1" class="input"
+													  data-minimum="1" data-maximum="99" data-step="1" data-unit="" maxlength="2">
+
+													<button type="button" class="plus">+</button>
+												</div>
+
+												<div class="price">2 500 руб.</div>
+											</div>
+										</div>
+
+										<button class="delete_btn">
+											<span>Удалить</span>
+										</button>
+									</div>
+
+
+									<div class="product">
+										<a href="/" class="thumb">
+											<img data-src="images/tmp/product_thumb2.jpg" alt="" class="lozad">
+
+											<div class="discount">-10%</div>
+										</a>
+
+										<div class="info">
+											<div class="name">
+												<a href="/">Леггинсы</a>
+											</div>
+
+											<div class="collection">Название коллекции</div>
+
+											<div class="articul">Артикул: <span>565545</span></div>
+
+											<div class="options">
+												<div class="item size">
+													<div class="label">Размер:</div>
+
+													<select name="">
+														<option value="1">XS</option>
+														<option value="2">XS</option>
+														<option value="3" selected>XS</option>
+													</select>
+												</div>
+
+												<div class="item color">
+													<div class="label">Цвет:</div>
+
+													<select name="">
+														<option value="1">черный</option>
+														<option value="2">черный</option>
+														<option value="3" selected>черный</option>
+													</select>
+												</div>
+											</div>
+
+											<div class="bottom">
+												<div class="amount">
+													<button type="button" class="minus">-</button>
+
+													<input type="text" value="1" class="input"
+													  data-minimum="1" data-maximum="99" data-step="1" data-unit="" maxlength="2">
+
+													<button type="button" class="plus">+</button>
+												</div>
+
+												<div class="price">
+													<span class="old">2 500 руб.</span> 2 250 руб.
+												</div>
+											</div>
+										</div>
+
+										<button class="delete_btn">
+											<span>Удалить</span>
+										</button>
+									</div>
+								</div>
+							</section>
+
+
+							<section class="checkout_info">
+								<form action="" class="form">
+									<div class="section">
+										<div class="block_title">Контактная информация</div>
+
+										<div class="columns row">
+											<div class="line width1of3">
+												<div class="label">Как Вас зовут?</div>
+
+												<div class="field">
+													<input type="text" name="" value="" class="input">
+												</div>
+											</div>
+
+											<div class="line width1of3">
+												<div class="label">Введите номер телефона</div>
+
+												<div class="field">
+													<input type="tel" name="" value="" class="input">
+												</div>
+											</div>
+
+											<div class="line width1of3">
+												<div class="label">Введите e-mail</div>
+
+												<div class="field">
+													<input type="email" name="" value="" class="input">
+												</div>
+											</div>
+										</div>
+									</div>
+
+
+									<div class="section">
+										<div class="block_title">Город</div>
+
+										<div class="columns row">
+											<div class="line width1of3">
+												<div class="label">Укажите город</div>
+
+												<div class="field">
+													<input type="text" name="" value="" class="input">
+												</div>
+											</div>
+										</div>
+									</div>
+
+
+									<div class="section">
+										<div class="block_title">Способы доставки</div>
+
+										<div class="delivery_methods">
+											<input type="radio" name="delivery_method" id="delivery_method1">
+											<label for="delivery_method1" data-content=".method1_info">Курьерская доставка</label>
+
+											<input type="radio" name="delivery_method" id="delivery_method2">
+											<label for="delivery_method2" data-content=".method2_info">Пункт выдачи заказов</label>
+										</div>
+
+										<div class="method_info method1_info">
+											<div class="columns row">
+												<div class="line width1of3">
+													<div class="label">Улица</div>
+
+													<div class="field">
+														<input type="text" name="" value="" class="input">
+													</div>
+												</div>
+
+												<div class="line width1of3">
+													<div class="label">Дом/корпус</div>
+
+													<div class="field">
+														<input type="text" name="" value="" class="input">
+													</div>
+												</div>
+
+												<div class="line width1of3">
+													<div class="label">Квартира/офис</div>
+
+													<div class="field">
+														<input type="text" name="" value="" class="input">
+													</div>
+												</div>
+											</div>
+
+											<div class="line">
+												<div class="label">Комментарий к заказу</div>
+
+												<div class="field">
+													<input type="text" name="" value="" class="input">
+												</div>
+											</div>
+										</div>
+
+										<div class="method_info method2_info">
+											<button type="button" class="pick-up_point_btn modal_link" data-content="#pick-up_point_modal">Выбрать пункт выдачи</button>
+										</div>
+									</div>
+
+
+									<div class="section">
+										<div class="block_title">Способы оплаты</div>
+
+										<div class="payment_methods">
+											<input type="radio" name="payment_method" id="payment_method1">
+											<label for="payment_method1" data-index="1">Картой онлайн</label>
+
+											<input type="radio" name="payment_method" id="payment_method2">
+											<label for="payment_method2" data-index="2">Наличными курьеру</label>
+										</div>
+									</div>
+								</form>
+							</section>
+						</section>
+
+
+						<aside>
+							<div class="sticky">
+								<div class="cart_bottom">
+									<div class="promocode">
+										<form action="">
+											<input type="email" name="" value="" class="input" placeholder="Промокод">
+
+											<button type="submit" class="submit_btn">Применить</button>
+										</form>
+									</div>
+
+									<div class="cart_total">
+										<div class="title">СУММА ЗАКАЗА</div>
+
+										<div class="item">
+											<div class="name">Итого</div>
+											<div class="price">2 500 руб.</div>
+										</div>
+
+										<div class="item">
+											<div class="name">Скидка</div>
+											<div class="price">250 руб.</div>
+										</div>
+
+										<div class="item">
+											<div class="name">Доставка</div>
+											<div class="price">300 руб.</div>
+										</div>
+
+										<div class="item total">
+											<div class="name">Итого</div>
+											<div class="price">4 950 руб.</div>
+										</div>
+									</div>
+
+									<img data-src="images/circle_logo.svg" alt="" class="logo lozad">
+								</div>
+
+								<button class="pay_btn">Оплатить заказ</button>
+								<button class="checkout_btn">Оформить заказ</button>
+							</div>
+						</aside>
+					</div>
+				</section>
+
+
+				<section class="checkout_advantages block">
+					<div class="cont">
+						<div class="row">
+							<div class="item">
+								<div class="icon">
+									<img data-src="images/ic_checkout_advantages.svg" alt="" class="lozad">
+								</div>
+
+								<div class="name">Бесплатная доставка</div>
+								<div class="desc">При заказе от 5 000 руб.</div>
+							</div>
+
+							<div class="item">
+								<div class="icon">
+									<img data-src="images/ic_checkout_advantages2.svg" alt="" class="lozad">
+								</div>
+
+								<div class="name">Возврат товара</div>
+								<div class="desc">В течение 30 дней</div>
+
+								<div class="link">
+									<a href="/">Подробнее</a>
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="icon">
+									<img data-src="images/ic_checkout_advantages3.svg" alt="" class="lozad">
+								</div>
+
+								<div class="name">Доставка по всей России</div>
+								<div class="desc">Проверьте пункты выдачи</div>
+
+								<div class="link">
+									<a href="/">Подробнее</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+
+
+			<div class="fixed_pay_btn">
+				<button class="btn">Оплатить <b>5 000 руб.</b></button>
+			</div>
+
+
+			<footer>
+				<div class="cont row">
+					<div class="col_left">
+						<div class="logo">
+							<img src="images/logo.svg" alt="">
+						</div>
+
+						<div class="copyright">&copy; 2021. Все права защищены</div>
+					</div>
+
+					<div class="links">
+						<div class="title">Компания</div>
+
+						<div class="items">
+							<div><a href="/">О бренде</a></div>
+							<div><a href="/">Политика конфиденциальности</a></div>
+						</div>
+					</div>
+
+					<div class="links">
+						<div class="title">Каталог</div>
+
+						<div class="items">
+							<div><a href="/">Худи</a></div>
+							<div><a href="/">Рашгарды</a></div>
+							<div><a href="/">Спортивные шорты</a></div>
+							<div><a href="/">Бра</a></div>
+							<div><a href="/">Леггинсы</a></div>
+							<div><a href="/">Велосипедки</a></div>
+							<div><a href="/">Юбки-шорты</a></div>
+						</div>
+					</div>
+
+					<div class="links">
+						<div class="title">Покупателям</div>
+
+						<div class="items">
+							<div><a href="/">FAQ</a></div>
+							<div><a href="/">Доставка</a></div>
+							<div><a href="/">Возврат и обмен</a></div>
+							<div><a href="/">Контакты</a></div>
+						</div>
+					</div>
+
+					<div class="contacts">
+						<div class="title">
+							<button class="btn modal_link" data-content="#callback_modal">Связаться с нами</button>
+						</div>
+
+						<div class="phone">
+							<a href="tel:88006754545">8 800 675 45 45</a>
+						</div>
+
+						<div class="email">
+							<a href="mailto:bodyca@yandex.ru">bodyca@yandex.ru</a>
+						</div>
+
+						<div class="socials">
+							<a href="/" target="_blank" rel="noopener nofollow" class="vkontakte_link">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_vkontakte"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="facebook_link">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_facebook"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="instagram_link">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_instagram"></use></svg>
+							</a>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+
+
+		<div class="supports_error">
+			Ваш браузер устарел рекомендуем обновить его до последней версии<br> или использовать другой более современный.
+		</div>
+
+
+		<section class="modal" id="callback_modal">
+			<div class="modal_data">
+				<div class="data">
+					<div class="modal_title">Заказать звонок</div>
+
+					<div class="modal_desc">Оставьте свой номер телефона и мы ответим на ваши вопросы</div>
+
+					<form action="" class="form">
+						<div class="line">
+							<div class="label">Как Вас зовут?</div>
+
+							<div class="field">
+								<input type="text" name="" value="" class="input">
+							</div>
+						</div>
+
+						<div class="line">
+							<div class="label">Номер телефона</div>
+
+							<div class="field">
+								<input type="tel" name="" value="" class="input">
+							</div>
+						</div>
+
+						<div class="submit">
+							<button type="submit" class="submit_btn">Отправить</button>
+						</div>
+
+						<div class="agree">
+							Нажимая кнопку “Отправить”, я даю согласие на <a href="/" target="_blank">обработку персональных данных</a>
+						</div>
+					</form>
+
+					<img src="images/circle_logo.svg" alt="" class="logo">
+					<img src="images/circle_logo_white.svg" alt="" class="logo white">
+				</div>
+
+				<div class="image">
+					<img data-src="images/tmp/callback_modal_img.jpg" alt="" class="lozad">
+				</div>
+			</div>
+		</section>
+
+
+		<section class="modal" id="pick-up_point_modal">
+			<div class="row">
+				<div class="data">
+					<div class="title">Выберите пункт выдачи</div>
+
+					<div class="search">
+						<form action="">
+							<input type="text" name="" value="" class="input" placeholder="Метро, улица или название">
+
+							<button type="submit" class="submit_btn">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+							</button>
+						</form>
+					</div>
+
+					<div class="list">
+						<div><button class="btn">Название улицы, номер дома</button></div>
+						<div><button class="btn">Название улицы, номер дома</button></div>
+						<div><button class="btn">Название улицы, номер дома</button></div>
+						<div><button class="btn">Название улицы, номер дома</button></div>
+						<div><button class="btn">Название улицы, номер дома</button></div>
+						<div><button class="btn">Название улицы, номер дома</button></div>
+						<div><button class="btn">Название улицы, номер дома</button></div>
+						<div><button class="btn">Название улицы, номер дома</button></div>
+						<div><button class="btn">Название улицы, номер дома</button></div>
+						<div><button class="btn">Название улицы, номер дома</button></div>
+						<div><button class="btn">Название улицы, номер дома</button></div>
+						<div><button class="btn">Название улицы, номер дома</button></div>
+						<div><button class="btn">Название улицы, номер дома</button></div>
+						<div><button class="btn">Название улицы, номер дома</button></div>
+						<div><button class="btn">Название улицы, номер дома</button></div>
+						<div><button class="btn">Название улицы, номер дома</button></div>
+						<div><button class="btn">Название улицы, номер дома</button></div>
+						<div><button class="btn">Название улицы, номер дома</button></div>
+						<div><button class="btn">Название улицы, номер дома</button></div>
+						<div><button class="btn">Название улицы, номер дома</button></div>
+						<div><button class="btn">Название улицы, номер дома</button></div>
+						<div><button class="btn">Название улицы, номер дома</button></div>
+						<div><button class="btn">Название улицы, номер дома</button></div>
+						<div><button class="btn">Название улицы, номер дома</button></div>
+						<div><button class="btn">Название улицы, номер дома</button></div>
+						<div><button class="btn">Название улицы, номер дома</button></div>
+						<div><button class="btn">Название улицы, номер дома</button></div>
+						<div><button class="btn">Название улицы, номер дома</button></div>
+						<div><button class="btn">Название улицы, номер дома</button></div>
+						<div><button class="btn">Название улицы, номер дома</button></div>
+					</div>
+				</div>
+
+				<div class="map_wrap">
+					<div id="map" class="map"></div>
+
+					<script src="https://maps.googleapis.com/maps/api/js?key="></script>
+					<script>
+						// Карта гугла
+						function initMap() {
+							let coordinates = { lat: 55.6812363907118, lng: 37.89161718017825 },
+
+								map = new google.maps.Map(document.getElementById('map'), {
+									center: coordinates,
+									zoom: 14,
+									disableDefaultUI: false
+								}),
+
+								marker = new google.maps.Marker({
+									position: { lat: 55.6812363907118, lng: 37.89161718017825 },
+									map: map,
+									icon: {
+										url: '/images/ic_map_marker.svg',
+										size: new google.maps.Size(44, 44),
+										anchor: new google.maps.Point(22, 22)
+									}
+								}),
+
+								marker2 = new google.maps.Marker({
+									position: { lat: 55.69149394699684, lng: 37.87153279983579 },
+									map: map,
+									icon: {
+										url: '/images/ic_map_marker.svg',
+										size: new google.maps.Size(44, 44),
+										anchor: new google.maps.Point(22, 22)
+									}
+								})
+						}
+
+						initMap()
+					</script>
+				</div>
+			</div>
+		</section>
+
+
+		<!-- Подключение javascript файлов -->
+		<script src="js/jquery-3.5.0.min.js"></script>
+		<script src="js/lozad.min.js"></script>
+		<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+		<script src="js/inputmask.min.js"></script>
+		<script src="js/nice-select.js"></script>
+		<script src="js/fancybox.min.js"></script>
+		<script src="js/wheelSlider.js"></script>
+		<script src="js/sticky-kit.min.js"></script>
+		<script src="js/functions.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>
