@@ -206,7 +206,7 @@ $(() => {
 
 
 	// Моб. версия
-	if ($(window).width() < 375) $('meta[name=viewport]').attr('content', 'width=360, user-scalable=no')
+	if ($(window).width() < 375) $('meta[name=viewport]').attr('content', 'width=375, user-scalable=no')
 
 
 	if (is_touch_device()) {
@@ -246,7 +246,7 @@ $(window).scroll(() => {
 $(window).resize(() => {
 	// Моб. версия
 	$('meta[name=viewport]').attr('content', 'width=device-width, initial-scale=1, maximum-scale=1')
-	if ($(window).width() < 375) $('meta[name=viewport]').attr('content', 'width=360, user-scalable=no')
+	if ($(window).width() < 375) $('meta[name=viewport]').attr('content', 'width=375, user-scalable=no')
 })
 
 

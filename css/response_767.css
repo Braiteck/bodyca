@@ -705,6 +705,12 @@
         margin-bottom: 32px;
     }
 
+
+    .product_info .images .row
+    {
+        display: none;
+    }
+
     .product_info .images .row > *
     {
         display: none;
@@ -719,15 +725,28 @@
     }
 
 
-    .product_info .images .more_btn
+    .product_info .images .mob_slider
     {
-        display: block;
+        visibility: visible;
+
+        height: auto;
+
+        pointer-events: auto;
     }
 
 
     .product_info .data
     {
         width: 100%;
+    }
+
+
+    .product_info .brand_desc div
+    {
+        font-size: 15px;
+        line-height: 21px;
+
+        padding: 28px;
     }
 
 
@@ -810,11 +829,7 @@
 
     .about_block .images:after
     {
-        top: 72px;
-        right: calc(50% - 92px);
-
-        width: 132px;
-        height: 132px;
+        display: none;
     }
 
     .about_block .images .title

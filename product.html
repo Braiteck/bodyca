@@ -29,7 +29,7 @@
 		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
 		<!-- Подключение файлов стилей -->
-		<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+		<link rel="stylesheet" href="css/swiper-bundle.min.css">
 		<link rel="stylesheet" href="css/swiper.css">
 		<link rel="stylesheet" href="css/fancybox.css">
 		<link rel="stylesheet" href="css/wheelSlider.css">
@@ -532,7 +532,57 @@
 								</div>
 							</div>
 
-							<button class="more_btn link" data-start-slide="0">еще фото</button>
+
+							<div class="mob_slider">
+								<div class="swiper-container">
+									<div class="swiper-wrapper">
+										<div class="slide swiper-slide">
+											<button class="link" data-start-slide="0">
+												<img data-src="images/tmp/product_img.jpg" alt="" class="lozad">
+											</button>
+										</div>
+
+										<div class="slide swiper-slide">
+											<button class="link" data-start-slide="1">
+												<img data-src="images/tmp/product_img2.jpg" alt="" class="lozad">
+											</button>
+										</div>
+
+										<div class="slide swiper-slide">
+											<button class="link" data-start-slide="2">
+												<img data-src="images/tmp/product_img3.jpg" alt="" class="lozad">
+											</button>
+										</div>
+
+										<div class="slide swiper-slide">
+											<button class="link" data-start-slide="3">
+												<img data-src="images/tmp/product_img4.jpg" alt="" class="lozad">
+											</button>
+										</div>
+
+										<div class="slide swiper-slide">
+											<button class="link" data-start-slide="4">
+												<img data-src="images/tmp/product_img5.jpg" alt="" class="lozad">
+											</button>
+										</div>
+
+										<div class="slide swiper-slide">
+											<button class="link" data-start-slide="5">
+												<img data-src="images/tmp/product_img6.jpg" alt="" class="lozad">
+											</button>
+										</div>
+
+										<div class="slide swiper-slide">
+											<button class="link video_link" data-start-slide="6">
+												<img data-src="images/tmp/product_img7.jpg" alt="" class="lozad">
+												<div class="video_icon"></div>
+											</button>
+										</div>
+									</div>
+
+									<div class="swiper-pagination"></div>
+								</div>
+							</div>
 						</div>
 
 
@@ -540,6 +590,8 @@
 							<h1 class="product_name">Велосипедки</h1>
 
 							<div class="collection">Название коллекции</div>
+
+							<div class="articul">Артикул: 457555</div>
 
 							<div class="price">
 								<div class="old">2 500 руб.</div> 2 250 руб.
@@ -618,6 +670,10 @@
 
 
 							<div class="tab_content level1 active" id="product_tab1">
+								<div class="brand_desc">
+									<div>Carvico – итальянская ткань с мягким компрессионным эффектом. Не деформируется, гигроскопичная.</div>
+								</div>
+
 								<div class="advantages">
 									<div class="item">
 										<div class="icon">
@@ -1431,7 +1487,7 @@
 		<!-- Подключение javascript файлов -->
 		<script src="js/jquery-3.5.0.min.js"></script>
 		<script src="js/lozad.min.js"></script>
-		<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+		<script src="js/swiper-bundle.min.js"></script>
 		<script src="js/inputmask.min.js"></script>
 		<script src="js/nice-select.js"></script>
 		<script src="js/fancybox.min.js"></script>

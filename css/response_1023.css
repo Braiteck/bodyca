@@ -704,11 +704,11 @@
 
     .about_block .images:after
     {
-        top: 52px;
-        right: 96px;
+        top: 40px;
+        right: 140px;
 
-        width: 154px;
-        height: 154px;
+        width: 80px;
+        height: 80px;
     }
 
     .about_block .images .title

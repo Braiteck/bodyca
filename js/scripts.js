@@ -1,23 +1,38 @@
 $(() => {
 	// Первый блок на главной
 	if ($('.first_section .swiper-container').length) {
-		new Swiper('.first_section .swiper-container', {
-			loop: true,
-			speed: 500,
-			spaceBetween: 0,
-			slidesPerView: 1,
-			watchSlidesVisibility: true,
-			slideActiveClass: 'active',
-			slideVisibleClass: 'visible',
-			pagination: {
-				el: '.first_section_swiper-pagination',
-				type: 'bullets',
-				clickable: true,
-				bulletActiveClass: 'active'
-			},
-			navigation: {
-				nextEl: '.first_section_swiper-button-next',
-				prevEl: '.first_section_swiper-button-prev'
+		let sliders = []
+
+		$('.first_section .swiper-container').each(function (i) {
+			let this_ID = $(this).attr('id'),
+				options = {
+					loop: true,
+					speed: 500,
+					spaceBetween: 0,
+					slidesPerView: 1,
+					simulateTouch: false,
+					watchSlidesVisibility: true,
+					slideActiveClass: 'active',
+					slideVisibleClass: 'visible',
+					pagination: {
+						el: '.first_section_swiper-pagination',
+						type: 'bullets',
+						clickable: true,
+						bulletActiveClass: 'active'
+					},
+					navigation: {
+						nextEl: '.first_section_swiper-button-next',
+						prevEl: '.first_section_swiper-button-prev'
+					}
+				}
+
+			sliders[i] = new Swiper('#' + this_ID, options)
+
+			if ($(window).width() < 1279) {
+				sliders[0].on('slideChange', swiper => {
+					sliders[1].slideToLoop(swiper.realIndex)
+					sliders[2].slideToLoop(swiper.realIndex)
+				})
 			}
 		})
 	}
@@ -167,6 +182,26 @@ $(() => {
 						$(swiper.$el).find('.bg_line').css('top', thumbH / 2)
 					})
 				}
+			}
+		})
+	}
+
+
+	// Страница товара - Моб. слайдер
+	if ($('.product_info .images .mob_slider .swiper-container').length) {
+		new Swiper('.product_info .images .mob_slider .swiper-container', {
+			loop: true,
+			speed: 500,
+			spaceBetween: 0,
+			slidesPerView: 1,
+			watchSlidesVisibility: true,
+			slideActiveClass: 'active',
+			slideVisibleClass: 'visible',
+			pagination: {
+				el: '.swiper-pagination',
+				type: 'bullets',
+				clickable: true,
+				bulletActiveClass: 'active'
 			}
 		})
 	}

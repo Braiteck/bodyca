@@ -920,8 +920,11 @@
 
     .about_block .images:after
     {
-        top: 80px;
-        right: 172px;
+        top: 72px;
+        right: 208px;
+
+        width: 124px;
+        height: 124px;
     }
 
     .about_block .images .title
